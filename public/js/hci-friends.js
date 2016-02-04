@@ -18,6 +18,7 @@ function clickListener(e){
 	var name = $(this).find("h3").text();
 	var newName = anagrammedName(name);
 	console.log(newName);
+	$(this).find("h3").text(newName);
 
 }
 
